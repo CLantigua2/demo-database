@@ -34,3 +34,5 @@ function accumulate(cb, iteration) {
 module.exports = {
     genUsers: accumulate(generateUsers, 100)
 }
+
+
